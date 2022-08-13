@@ -1,0 +1,5 @@
+/* Select all columns and rows. */
+SELECT * FROM Country;
+SELECT Name, Continent, Region FROM Country;
+SELECT Name AS Country, FROM Country;
+SELECT Name AS Country FROM Country ORDER BY Name; 

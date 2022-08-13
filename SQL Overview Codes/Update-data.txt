@@ -1,0 +1,4 @@
+SELECT * FROM customer;
+
+UPDATE customer SET address = '123 music avenue', zip = '89340' WHERE id = '5';
+UPDATE customer SET address = NULL, zip = NULL WHERE id = 5;

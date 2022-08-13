@@ -1,0 +1,8 @@
+/* Hello world */
+-- SELECT 'Hello, world' AS Result;
+
+/* Get all of the rows and collumns */
+-- SELECT * FROM Country;
+-- SELECT * FROM Country ORDER BY Name;
+-- SELECT Name, LifeExpectancy FROM Country;
+-- SELECT Name, LifeExpectancy AS "Life Expectancy" FROM Country; 

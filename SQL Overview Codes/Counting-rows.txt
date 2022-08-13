@@ -1,0 +1,10 @@
+/* Counting Rows 
+* -> Means all rows
+*/
+
+SELECT COUNT(*) FROM Country;
+SELECT COUNT(*) FROM Country WHERE Population > 100000;	
+
+/*Specify a column */
+
+SELECT COUNT(LifeExpectancy) FROM Country;
