@@ -1,5 +1,8 @@
 # Learn-SQL
 
+## Query
+- A query is a question or a request for information expressed in a formal manner. In computer science, a query is essentially the same thing, the only difference is the answer or retrieved information comes from a database.
+
 ## CRUD
 
 - Create : Insert statement 
@@ -43,3 +46,17 @@ SELECT * FROM Contries WHERE Continent = 'Europe';
 - The tables key is used to create relationship between tables. Tables are related by keys. 
 
 #### The select Statement 
+
+- The select statement returns results or a set of results from a query. 
+
+#### The insert Statement
+
+- Use the INSERT INTO statement to add rows a table.
+
+#### Updating Data
+
+- To change data in a table use the UPDATE statement. 
+
+#### Delete Data
+
+- Use DELETE FROM statement to delete rows from a table.
