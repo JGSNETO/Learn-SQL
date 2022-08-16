@@ -1,0 +1,8 @@
+CREATE TABLE test(
+	a INTEGER;
+	b TEXT;
+);
+
+DROP TABLE test;
+
+DROP TABLE IF EXIST test;

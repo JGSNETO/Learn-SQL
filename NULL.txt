@@ -1,0 +1,4 @@
+SELECT * FROM test WHERE a = NULL; -- No result. It is not a value, it is the absecence of a value. 
+SELECT * FROM test WHERE a IS NULL; -- Special condition. 
+SELECT * FROM test WHERE a IS NOT NULL; 
+
