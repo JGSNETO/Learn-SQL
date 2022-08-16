@@ -60,3 +60,27 @@ SELECT * FROM Contries WHERE Continent = 'Europe';
 #### Delete Data
 
 - Use DELETE FROM statement to delete rows from a table.
+
+#### Create Table
+
+- CREATE TABLE statement 
+
+#### Delete Table
+
+-  DELETE FROM statement
+
+#### Insert Rows
+
+- INSERT INTO statement
+
+#### Delete Rows
+
+- DELETE FROM statement
+
+#### NULL Value
+
+- NULL is a special state for a result with no value. It is important to distinguish between a zero or an empty string, or a non-value result. 
+
+#### Constraining Columms
+
+- As you are defining your schema you may want to define specific rules and behaviors for some os your columms. 
