@@ -84,3 +84,25 @@ SELECT * FROM Contries WHERE Continent = 'Europe';
 #### Constraining Columms
 
 - As you are defining your schema you may want to define specific rules and behaviors for some os your columms. 
+
+#### Changing a Schema 
+
+- ALTER TABLE statement 
+
+#### ID columm
+
+- An ID columm is a columm that holds a unique value for each row in a table. Typically ID columns are automatically populated. 
+- How you create id is different for each system. 
+
+#### Filtering data
+
+- OR, AND, LIKE, IN statement.
+
+#### Remove duplicate
+
+- SELECT DISTINCT statement 
+
+#### Conditional Expression
+
+- Somethign similar to switch case. 
+- In Stadardized SQL, a zero is considered false and 1 true. 
