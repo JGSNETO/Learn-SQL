@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS test;
+
+CREATE TABLE test (a TEXT UNIQUE, b TEXT, c TEXT DEFAULT 'panda');
+INSERT INTO test (a,b) VALUES ('one', 'two');
+SELECT * FROM test;
