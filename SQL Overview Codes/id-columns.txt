@@ -1,0 +1,4 @@
+DROP TABLE IF EXIST test;
+CREATE TABLE (id INTEGER PRIMARY KEY, a INTEGER, b INTEGER); -- This will create an integer primary key and the primary key constraint, the system will automatically generate a unique, sequential number, and will enforce a unique value constraint. 
+INSERT INTO test (a,b) VALUES(10, 'a');
+SELECT * FROM test;

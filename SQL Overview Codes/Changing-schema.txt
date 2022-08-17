@@ -1,0 +1,9 @@
+DROP TABLE IF EXIST test;
+CREATE TABLE test (a TEXT, b TEXT, c TEXT);
+INSERT INTO test VALUES ('one', 'two', 'three');
+INSERT INTO test VALUES ('one', 'two', 'three');
+INSERT INTO test VALUES ('one', 'two', 'three');
+SELECT * FROM test;
+
+ALTER TABLE test ADD d TEXT;
+SELECT * FROM test;

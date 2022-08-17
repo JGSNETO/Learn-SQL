@@ -1,0 +1,7 @@
+SELECT Name, Continent, Population FROM country WHERE Population < 100000 OR Population IS NULL ORDER BY Population DESC; 
+SELECT Name, Continent, Population FROM country WHERE Population < 100000 AND Continent ='Oceania' ORDER BY Population DESC; 
+SELECT Name, Continent, Population FROM country WHERE name LIKE '%island%' ORDER BY Name; 
+SELECT Name, Continent, Population FROM country WHERE name LIKE '%island' ORDER BY Name; -- End with the word
+SELECT Name, Continent, Population FROM country WHERE name LIKE 'island' ORDER BY Name; 
+SELECT Name, Continent, Population FROM country WHERE name LIKE '_a%' ORDER BY Name; 
+SELECT Name, Continent, Population FROM country WHERE Continent IN ('Europe', 'Asia') ORDER BY Name; 
