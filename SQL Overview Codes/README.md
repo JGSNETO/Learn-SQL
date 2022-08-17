@@ -1,4 +1,4 @@
-# Learn-SQL
+# Learn-SQL Resume
 
 ## Query
 - A query is a question or a request for information expressed in a formal manner. In computer science, a query is essentially the same thing, the only difference is the answer or retrieved information comes from a database.
