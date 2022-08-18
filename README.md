@@ -106,3 +106,15 @@ SELECT * FROM Contries WHERE Continent = 'Europe';
 
 - Somethign similar to switch case. 
 - In Stadardized SQL, a zero is considered false and 1 true. 
+
+## Relationships 
+
+#### Understanding JOIN
+
+- Its the nature of a relational database that some tables contain information related to other tables. Using the JOIN clause, SQL may easily perform queries on related data from multiples tables. 
+- Typically, unique ID columns are used to create relationships. All modern database systems support automatic generation of these ID columns, and they work well for creating and managing simple or complex relationships between tables. 
+- When you need a result that includes realted rows from multiple tables, you will need to use a joined query. 
+- The simplest and most common form of a join is the inner join. This is the default and its the join you get when you use the join keyword by itself. The result of an inner join will include rows from both tables where the join condition is met. 
+- The outer join is less common. A left outer join includes the rows where the condition is met plus all the rows from the table on the left, where the condition is not met. 
+- Right outer join includes all the rows from the table on the right, this is considered a special case, and many database don't support right joins. 
+- Full outer join combines the effects of the left and right joins. 
