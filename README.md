@@ -118,3 +118,16 @@ SELECT * FROM Contries WHERE Continent = 'Europe';
 - The outer join is less common. A left outer join includes the rows where the condition is met plus all the rows from the table on the left, where the condition is not met. 
 - Right outer join includes all the rows from the table on the right, this is considered a special case, and many database don't support right joins. 
 - Full outer join combines the effects of the left and right joins. 
+
+## Strings
+
+- In standard SQL a literal string is represented by a series of characters inclosed in single quote marks. 
+- SELECT ' a literal SQL string';
+- Single quote in string: SELECT 'Here''is a single quote mark';
+- Concatenation in standard SQL: SELECT 'This' || '&' || 'that';
+- Functions:
+- SUBSTR(string, start, lenght);
+- LENGTH(string);
+- TRIM(string);
+- UPPER(string);
+- LOWER(string);
