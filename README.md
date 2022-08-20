@@ -141,3 +141,9 @@ SELECT * FROM Contries WHERE Continent = 'Europe';
 -MONEY(precision, scale);
 -REAL(precision)
 -FLOAT(precision)
+
+## Dates and Time
+
+- SQL standard datetime format: 2018-03-28 15:32:47.
+- Dates and time are generally stored as UTC(Cordinated Universal Time).
+
