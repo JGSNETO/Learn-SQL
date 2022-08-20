@@ -1,0 +1,10 @@
+-- Album database
+SELECT SUBSTR('This string', 6);
+SELECT SUBSTR('This string', 6, 3);
+
+SELECT released, 
+	SUBSTR(release,1,4) AS year,
+	SUBSTR(release,6,2) AS month,
+	SUBSTR(release,9,2) AS day
+
+	FROM album ORDER BY released;

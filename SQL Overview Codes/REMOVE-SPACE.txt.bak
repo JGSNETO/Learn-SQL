@@ -1,0 +1,6 @@
+SELECT TRIM('   STRING   ');
+SELECT LTRIM('   STRING		');
+SELECT RTRIM('	STRING		');
+SELECT TRIM('	STRING 		','.');
+
+
