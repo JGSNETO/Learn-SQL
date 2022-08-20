@@ -131,3 +131,13 @@ SELECT * FROM Contries WHERE Continent = 'Europe';
 - TRIM(string);
 - UPPER(string);
 - LOWER(string);
+
+## Numeric Types
+
+- SQL data types are entirely plataform-dependent. 
+- Fundamental numeric types: Integer, Real.
+-INTEGER(precision);
+-DECIMAL(precision, scale);
+-MONEY(precision, scale);
+-REAL(precision)
+-FLOAT(precision)
