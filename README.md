@@ -147,3 +147,9 @@ SELECT * FROM Contries WHERE Continent = 'Europe';
 - SQL standard datetime format: 2018-03-28 15:32:47.
 - Dates and time are generally stored as UTC(Cordinated Universal Time).
 
+## Agregates
+
+- Agregates data is information derived from more than one row at a time.
+- You can use agregate values in the rest of the query just as you would any other value. 
+- Where clause is used before the agregation and the HAVING is used after. 
+- For situations where you want your aggregate functions to operate on distinct values, SQL provides the DISTINCT keyword to be used in aggregate functions. 
