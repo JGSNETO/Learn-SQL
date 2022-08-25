@@ -153,3 +153,8 @@ SELECT * FROM Contries WHERE Continent = 'Europe';
 - You can use agregate values in the rest of the query just as you would any other value. 
 - Where clause is used before the agregation and the HAVING is used after. 
 - For situations where you want your aggregate functions to operate on distinct values, SQL provides the DISTINCT keyword to be used in aggregate functions. 
+
+## Transactions 
+
+- A transaction is a group of operations that are handle as one unit of work. In pratice, this means that you may have many operations, and if any of these operations fails, the entire group of operations is treated as fail and the database is restored to its state before the group of operations was started. 
+- Transaction a also used to ensure that concurrent operations result in a state as if they were handle separately and sequentially.
