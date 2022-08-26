@@ -158,3 +158,8 @@ SELECT * FROM Contries WHERE Continent = 'Europe';
 
 - A transaction is a group of operations that are handle as one unit of work. In pratice, this means that you may have many operations, and if any of these operations fails, the entire group of operations is treated as fail and the database is restored to its state before the group of operations was started. 
 - Transaction a also used to ensure that concurrent operations result in a state as if they were handle separately and sequentially.
+
+## Triggers 
+
+- Triggers are operations that are automatically performed when a specified database event occurs.
+- Triggers may also be used to prevent changes to rows that have already been reconciled or should not be changed for other reasons. 
