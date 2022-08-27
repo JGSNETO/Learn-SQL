@@ -163,3 +163,7 @@ SELECT * FROM Contries WHERE Continent = 'Europe';
 
 - Triggers are operations that are automatically performed when a specified database event occurs.
 - Triggers may also be used to prevent changes to rows that have already been reconciled or should not be changed for other reasons. 
+
+## Views and Subselects
+
+- Subselects are effectivelly nested queries. In SQL, the result of a select statement is effectively a table and can always be used as would use a table. Because of this, a select statement may be used as data source in another select statement. This usage is called a subselect. 
